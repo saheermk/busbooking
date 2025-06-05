@@ -152,6 +152,11 @@ const TrainCard = styled.div`
   margin-bottom: 20px;
   border-radius: 10px ;
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
 
   @media (max-width:412px) {
 	line-height: 20px;
